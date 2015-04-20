@@ -2,3 +2,8 @@
 
 <p>Please select an ad exchange and specify a date range:</p>
 
+<%= simple_form_for :search, url: admoda_path, :method => 'get' do |f| %>
+  <%= f.input :start_date, :placeholder => 'YYYY-MM-DD', input_html: { name: :start_date } %>
+  <%= f.input :end_date, :placeholder => 'YYYY-MM-DD', input_html: { name: :end_date } %>
+  <%= f.button :submit, "Submit" %>
+<% end %>	

@@ -1,0 +1,9 @@
+<h1>Welcome to the AdModa page!</h1>
+
+<% @csv.each do |row| %>
+	<h3><%= row['Campaign Name'] %></h3>
+	<p>Campaign ID: <%= row['CampaignID'] %></p>
+	<p>Impressions: <%= row['Impressions'] %></p>
+	<p>CTR: <%= row['CTR'] %></p>
+	<p>Spend: <%= row['Spend'] %></p>
+<% end %>

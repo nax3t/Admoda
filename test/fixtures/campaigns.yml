@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  CampaignID: MyString
+  CampaignName: MyString
+  Impressions: MyString
+  Clicks: MyString
+  CTR: MyString
+  Spend: MyString
+
+two:
+  CampaignID: MyString
+  CampaignName: MyString
+  Impressions: MyString
+  Clicks: MyString
+  CTR: MyString
+  Spend: MyString
